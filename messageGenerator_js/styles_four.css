@@ -1,0 +1,55 @@
+Body {
+    background-image: url(resources/pic7.jpg);
+    color: white;
+    position: block;
+    margin: 0px;
+    text-align: center;
+    font-weight:900;
+    background-size: 100%;
+    font-family: 'kalam', sans-serif;
+    line-height: 2px;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    text-shadow: 2px 2px 1px rgb(29, 83, 35);
+    
+}
+
+.butt {
+    border-radius: 10px 5px;
+    box-shadow: 0px 5px rgb(40, 40, 40);
+    position: relative;
+    width: 65px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    bottom: 7px;
+    font-family: 'kalam', 'san-serif';
+    text-align: center;
+
+    
+}
+.butt:hover {
+    background-color: #DBE9FA;
+    border-radius: 10px 5px;
+}
+.butt:active {
+    border-radius: 10px 5px;
+    box-shadow: 0px 5px #282929;
+    transform: translateY(4px);
+    background-color: #CC7A8B;
+    font-weight: bold;
+}
+
+header {
+    font-size: 40px;
+    position: relative;
+    top: 7px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    font-size: 30px;
+    opacity: 2;
+    
+}

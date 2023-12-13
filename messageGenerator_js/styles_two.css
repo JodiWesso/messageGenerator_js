@@ -1,0 +1,52 @@
+body {
+    background-image: url(resources/pic5.jpg);
+    color: white;
+    position: block;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background-size: 100%;
+    font-family: 'Brygada 1918', serif;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    text-shadow: 1px 2px 1px #000;
+}
+.butt {
+    border-radius: 10px 5px;
+    box-shadow: 0px 5px #474747;;
+    position: relative;
+    width: 65px;
+    height: 27px;
+    font-size: 15px;
+    cursor: pointer;
+    bottom: 7px;
+    font-family: 'Brygada 1918', 'san-serif';
+    
+}
+.butt:hover {
+    background-color: #DBE9FA;
+    border-radius: 10px 5px;
+}
+.butt:active {
+    border-radius: 10px 5px;
+    box-shadow: 0px 5px #2d2d2d;
+    transform: translateY(4px);
+    background-color: #CC7A8B;
+    font-weight: bold;
+}
+
+header {
+    font-size: 31px;
+    position: relative;
+    top: 3px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    font-size: 24px;
+    opacity: 2;
+    position: relative;
+    top: 15px;
+    
+}
